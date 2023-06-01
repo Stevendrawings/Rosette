@@ -1,4 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600&display=swap');
 
-.traducteur {
+body { 
+    background-color: #121212;
+    font-family: 'Geologica', sans-serif;
+    color: #d8d8d8 }
+
+.container-rosette { display: flex }
+
+.traducteur { 
     display: flex;
+    justify-content: center; }
+
+#valInput {
+    outline: none;
+    border: 0;
+    font-weight: 600;
+    background: #121212;
+    font-size: 40px;
+    color: #fff;
+    caret-color: #4d4d4d; }
+
+::placeholder { 
+    color: #4d4d4d;
+    font-weight: 400; }
+
+.content-input { padding: 30px }
+
+.wrapper-rosette {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px 50px }
+
+.logo-rosette {
+    width: 100%;
+    max-width: 200px; }
+
+.content-rosette {
+    display: flex;
+    padding: 60px }
+
+.content-input {
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    height: 40px }
+
+.traducteur div {
+    margin: 10px;
+    font-size: 80px;
 }
+
