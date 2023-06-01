@@ -49,7 +49,7 @@ body {
     height: 40px }
 
 .traducteur div {
-    margin: 10px;
+    margin: 0 15px;
     font-size: 80px;
-}
+    -webkit-text-stroke: 1.28px }
 
